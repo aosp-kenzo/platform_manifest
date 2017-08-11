@@ -12,8 +12,8 @@ $ source build/envsetup.sh
 $ lunch aosp_kenzo-userdebug
 
 # Build with Gapps and Pixel(Optional)
-$ USE_GAPPS=true
-$ USE_PIXEL=true
+$ WITH_GAPPS=true
+$ WITH_PIXEL=true
 
 # Build the code
 $ make -jX otapackage
