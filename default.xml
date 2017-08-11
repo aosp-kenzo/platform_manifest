@@ -32,6 +32,7 @@
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aosp-kenzo" />
   <project path="device/xiaomi/kenzo" name="platform_device_xiaomi_kenzo" remote="aosp-kenzo" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosp-kenzo" />
+  <project path="packages/apps/Browser" name="platform_packages_apps_Browser" remote="aosp-kenzo" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="aosp-kenzo" />
   <project path="vendor/google" name="platform_vendor_google" remote="aosp-kenzo" /> 
 	
