@@ -48,7 +48,7 @@
   <project path="vendor/qcom/opensource/wlan/prima" name="android_vendor_qcom_opensource_wlan_prima" remote="aosp-kenzo" />
   <project path="vendor/xiaomi/kenzo" name="android_vendor_xiaomi_kenzo" remote="aosp-kenzo" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="aosp-kenzo" />
-  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="aosp-kenzo" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="aosp-kenzo" />
 
 <!-- aosp -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
