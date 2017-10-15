@@ -11,17 +11,10 @@
   <remote  name="aosp-kenzo"
            fetch="https://github.com/aosp-kenzo/"
            revision="android-7.1.2" />
-	   
-  <remote  name="billchen1977"
-           fetch="https://github.com/billchen1977/"
-           revision="aospn" />
 
   <remote  name="opengapps"
            fetch="https://github.com/opengapps/"
            revision="master" />
-
-  <remote  name="github"
-           fetch="https://github.com/" />
 
 <!-- aosp-kenzo -->
   <project path="build" name="platform_build" remote="aosp-kenzo" >
