@@ -16,6 +16,10 @@
            fetch="https://github.com/billchen1977/"
            revision="aospn" />
 
+  <remote  name="opengapps"
+           fetch="https://github.com/opengapps/"
+           revision="master" />
+
   <remote  name="github"
            fetch="https://github.com/" />
 
@@ -26,13 +30,11 @@
   <project path="frameworks/av" name="platform_frameworks_av" remote="aosp-kenzo" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="aosp-kenzo" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aosp-kenzo" />
-  <project path="device/xiaomi/kenzo" name="platform_device_xiaomi_kenzo" remote="aosp-kenzo" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosp-kenzo" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="aosp-kenzo" />
-  <project path="vendor/google" name="platform_vendor_google" remote="aosp-kenzo" />
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="aosp-kenzo" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="aosp-kenzo" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="aosp-kenzo" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="aosp-kenzo" />
   <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="aosp-kenzo" />
   <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="aosp-kenzo" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="aosp-kenzo" />
@@ -42,13 +44,21 @@
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="aosp-kenzo" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="aosp-kenzo" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="aosp-kenzo" />
-  <project path="kernel" name="android_kernel_xiaomi_kenzo" remote="aosp-kenzo" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="aosp-kenzo" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="aosp-kenzo" />
   <project path="vendor/qcom/opensource/wlan/prima" name="android_vendor_qcom_opensource_wlan_prima" remote="aosp-kenzo" />
-  <project path="vendor/xiaomi/kenzo" name="android_vendor_xiaomi_kenzo" remote="aosp-kenzo" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="aosp-kenzo" />
-  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="aosp-kenzo" />
+  <project path="vendor/google" name="platform_vendor_google" remote="aosp-kenzo" />
+  <project path="vendor/xiaomi/kenzo" name="android_vendor_xiaomi_kenzo" remote="aosp-kenzo" />
+  <project path="device/xiaomi/kenzo" name="platform_device_xiaomi_kenzo" remote="aosp-kenzo" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="aosp-kenzo" />
+  <project path="kernel" name="android_kernel_xiaomi_kenzo" remote="aosp-kenzo" />
+
+<!-- opengapps -->
+  <project path="vendor/google/build" name="aosp_build" remote="opengapps" />
+  <project path="vendor/opengapps/sources/all" name="all" remote="opengapps" />
+  <project path="vendor/opengapps/sources/arm" name="arm" remote="opengapps" />
+  <project path="vendor/opengapps/sources/arm64" name="arm64" remote="opengapps" />
 
 <!-- aosp -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
