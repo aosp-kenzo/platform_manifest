@@ -1,4 +1,4 @@
-# AOSP FOR KENZO #
+# Debugging #
 
 
 ### Preparing to Build ###
