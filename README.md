@@ -1,6 +1,6 @@
-# unfinished #
+# Unfinished #
 
-
+<!--
 ### Preparing to Build ###
 
 ```bash
@@ -18,3 +18,4 @@ $ WITH_PIXEL=true
 # Build the code
 $ make -jX otapackage
 ```
+-->
